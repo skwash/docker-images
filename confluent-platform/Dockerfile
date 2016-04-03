@@ -2,7 +2,7 @@
 # start up any particular service, just installs the platform. Other images
 # inherit from this image to start up a particular service.
 
-FROM debian:8.2
+FROM resin/rpi-raspbian:jessie
 
 ENV SCALA_VERSION="2.10.4"
 ENV JAVA_VERSION="7"
